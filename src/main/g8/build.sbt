@@ -5,5 +5,12 @@ lazy val root = (project in file(".")).
       organization := "$organization$",
       scalaVersion := "2.12.4"
     )),
-    name := $name$
+    name := $name$,
+    libraryDependencies ++= Seq(
+      Dependencies.catsCore,
+      Dependencies.catsEffect,
+      Dependencies.miniTest,
+      Dependencies.miniTestLaws,
+      Dependencies.scalaCheck
+    )
   )
