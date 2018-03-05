@@ -5,7 +5,7 @@ object Dependencies {
   val catsVersion       = "1.0.1"
   val catsEffectVersion = "0.9"
   val miniTestVersion   = "2.1.1"
-  val scalaCheckVerison = "1.13.4"
+  val scalaCheckVersion = "1.13.4"
 
   // Libraries
   val catsCore     = "org.typelevel"  %% "cats-core"     % catsVersion
