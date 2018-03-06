@@ -9,7 +9,7 @@ object Dependencies {
 
   // Libraries
   val catsCore     = "org.typelevel"  %% "cats-core"     % catsVersion
-  val catsEffect   = "org.typelevel"  %% "cats-effect"   % catsVersion
+  val catsEffect   = "org.typelevel"  %% "cats-effect"   % catsEffectVersion
   val miniTest     = "io.monix"       %% "minitest"      % miniTestVersion   % "test"
   val miniTestLaws = "io.monix"       %% "minitest-laws" % miniTestVersion   % "test"
   val scalaCheck   = "org.scalacheck" %% "scalacheck"    % scalaCheckVersion % "test"
