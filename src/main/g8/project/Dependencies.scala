@@ -2,9 +2,9 @@ import sbt._
 
 object Dependencies {
   // Library Versions
-  val catsVersion       = "1.1.0"
-  val catsEffectVersion = "0.10.1"
-  val miniTestVersion   = "2.1.1"
+  val catsVersion       = "2.0.0"
+  val catsEffectVersion = "2.0.0"
+  val miniTestVersion   = "2.7.0"
   val scalaCheckVersion = "1.14.0"
 
   // Libraries
